@@ -11,42 +11,30 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     
-    <!-- Nav Bar from Boostrap -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Intro">Introduction</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Problems">Problems</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#LoFi">LoFi Wireframes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Observations">Key Observations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#VDG">Visual Design Guides</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#HiFi-Annotations">HiFi Annotations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#HiFi">HiFi Prototypes</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <!-- Nav Bar -->
+    <ul class="nav flex justify-start py-3 sticky top-0 bg-white z-50">
+      <li class="px-3">
+        <a class="active" href="#Home">Home</a>
+      </li>
+      <li class="px-3">
+        <a class="active" href="#Intro">Introduction</a>
+      </li>
+      <li class="px-3">
+        <a class="active" href="#Problems">Problems</a>
+      </li>
+      <li class="px-3">
+        <a class="active" href="#LoFi">LoFi Wireframes</a>
+      </li>
+      <li class="px-3">
+        <a class="active" href="#VDG">Visual Design Guides</a>
+      </li>
+      <li class="px-3">
+        <a class="active" href="#HiFi-Annotations">HiFi Annotations</a>
+      </li>
+      <li class="px-3">
+        <a class="active" href="#HiFi">HiFi Prototypes</a>
+      </li>
+    </ul>
 
       <!-- Body Page -->
       <div class="m-0 bg-white">
@@ -106,70 +94,8 @@
                 <strong>Accessibility: </strong>The interactive elements on the page lacks contrast, making it difficult for visually impaired users to identify relevant content. Numerous images also 
                 lack alternative texts and forms lack labels, making it difficult for text readers to parse the webpage. Lastly, the HTML of the webpage contains empty 
                 links and headings that detract from the quality and readability of the source code.
+              </div>
             </div>
-            </div>
-            <!-- Accordian from Bootstrap -->
-            <div class="accordion" id="accordionExample">
-                <!-- Item #1 -->
-                <!-- <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Learnability
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        The webpage contradicts the scan pattern of most users by placing action buttons on the left column rather than the bottom right corners. 
-                        Additionally, the shapes of interactive elements such as buttons diverges from most users' mental models as they look more like view-only images. 
-                        Therefore, novice users will have a hard time locating the links and pages they want to navigate to.
-                    </div>
-                  </div>
-                </div> -->
-                <!-- Item #2 -->
-                <!-- <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Memorability
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        For casual users, the overuse of opaque images as backgrounds distracts from the texts and other relevant content on the website. This makes the site 
-                      harder to memorize as users will associate content by the images rather than the text which displays more accurate info. The clustering of elements 
-                      into poorly spaced spaces also reduces the memorability of the site as elements lack distinctive location and features.
-                    </div>
-                  </div>
-                </div> -->
-                <!-- Item #3 -->
-                <!-- <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Usability
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        The webpage lacks hierarchy by having three columns of content jammed horizontally next to each other. The congestion of content 
-                        challenges even expert users as it makes it harder for them to locate the specific links that they are seeking and increases the 
-                        likelihood of clicking on the wrong links, simply owing to the elements' proximity to each other.
-                    </div>
-                  </div>
-                </div> -->
-                <!-- Item #4 -->
-                <!-- <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Accessibility
-                    </button>
-                  </h2>
-                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      The interactive elements on the page lacks contrast, making it difficult for visually impaired users to identify relevant content. Numerous images also 
-                      lack alternative texts and forms lack labels, making it difficult for text readers to parse the webpage. Lastly, the HTML of the webpage contains empty 
-                      links and headings that detract from the quality and readability of the source code.
-                    </div>
-                  </div>
-                </div> -->
             </div>
         </div>
         <!-- Low Fidelity Wireframes Carousel -->
